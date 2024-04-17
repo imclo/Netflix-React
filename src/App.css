@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  background-color: black;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+img {
+  width: 220px;
+  height: 150px;
+}
+
+.images {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.images::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.images {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
